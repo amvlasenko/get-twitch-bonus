@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Get Twitch Bonus",
+  "version": "1.0",
+  "description": "Allows you to receive bonus points from the twitch channel without manually pressing the button.",
+  "icons": {
+    "128": "128.png",
+    "48": "48.png",
+    "16": "16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "app.js" ]
+    }
+  ]
+}
